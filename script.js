@@ -64,6 +64,6 @@ function my_funcion(){
 	console.log(data);
 	my_keys(data);
 		}
-	xhttp.open("GET",my_url);
+	xhttp.open("POST",my_url);
 	xhttp.send();
 }
